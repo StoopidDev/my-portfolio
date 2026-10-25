@@ -167,6 +167,12 @@ export default async function Home() {
                   </a>
                 </li>
                 <li>
+                  <span className="text-zinc-500">instagram: </span>
+                  <a href={profile.instagram} target="_blank" rel="noopener" className="text-zinc-200 hover:text-emerald-400">
+                    @{new URL(profile.instagram).pathname.replaceAll("/", "")}
+                  </a>
+                </li>
+                <li>
                   <span className="text-zinc-500">location: </span>
                   <span className="text-zinc-200">{profile.location}</span>
                 </li>

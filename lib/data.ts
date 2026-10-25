@@ -11,6 +11,7 @@ export type Profile = {
   github: string;
   avatar: string;
   skills: string[];
+  instagram: string;
 };
 
 export type Project = {
@@ -40,8 +41,9 @@ export async function getPortfolio(): Promise<Portfolio> {
       github: "https://github.com",
       avatar: "/tanny.jpg",
       skills: ["HTML", "CSS", "JavaScript", "TypeScript", "Next.js", "Tailwind"],
+      instagram: "https://www.instagram.com/asawachananont/",
     },
-    about: "Hello! I'm a student interested in Computer Science.",
+    about: "Hello! I'm a student interested in Computer Science. Please Click Here if you want to know more about me.",
     experience: ["Student", "School Student"],
     projects: [
       {
